@@ -1,5 +1,5 @@
 // <<<< ------ ใส่ URL ของ n8n Webhook ของคุณที่นี่ ------ >>>>
-const N8N_WEBHOOK_URL = 'vic-n8n.store:3001/webhook-test/d102148d-d88b-4754-aecc-39054c4dde00';
+const N8N_WEBHOOK_URL = 'http://vic-n8n.store:3001/webhook-test/d102148d-d88b-4754-aecc-39054c4dde00';
 // <<<<http://vic-n8n.store:3001/webhook-test/d102148d-d88b-4754-aecc-39054c4dde00>>>>
 
 const chatHistory = document.getElementById('chat-history');
@@ -55,5 +55,6 @@ function addMessageToHistory(message, className) {
     chatHistory.scrollTop = chatHistory.scrollHeight;
 
 }
+
 
 
