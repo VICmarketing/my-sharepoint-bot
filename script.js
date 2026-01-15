@@ -1,3 +1,4 @@
+console.log('script.js loaded ✅');
 // ใส่ URL ของ n8n Webhook
 const N8N_WEBHOOK_URL = 'http://vic-n8n.store:3001/webhook-test/d102148d-d88b-4754-aecc-39054c4dde00';
 
@@ -46,3 +47,4 @@ function addMessageToHistory(message, className) {
   chatHistory.appendChild(messageElement);
   chatHistory.scrollTop = chatHistory.scrollHeight;
 }
+
