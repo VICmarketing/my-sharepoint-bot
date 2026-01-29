@@ -1,6 +1,6 @@
 console.log('script.js loaded ✅');
 // ใส่ URL ของ n8n Webhook
-const N8N_WEBHOOK_URL = 'https://rev3.vinyltec.org//webhook-test/61c2d0fd-bedc-4bac-a825-920888f65f24';
+const N8N_WEBHOOK_URL = 'https://rev3.vinyltec.org/webhook/61c2d0fd-bedc-4bac-a825-920888f65f24';
 
 const chatHistory = document.getElementById('chat-history');
 const messageInput = document.getElementById('message-input');
@@ -47,6 +47,7 @@ function addMessageToHistory(message, className) {
   chatHistory.appendChild(messageElement);
   chatHistory.scrollTop = chatHistory.scrollHeight;
 }
+
 
 
 
